@@ -61,7 +61,7 @@ login_by_name() {
     banner
     echo -e "${BG_GREEN}${RED} LOGIN DENGAN NAMA${NC}\n"
 
-    read -rp "[ ! ] MASUKAN NAMA ANDA UNTUK LOGIN : " nama
+    read -rp "[ ! ] MASUKAN NOMOR/NAMA ANDA UNTUK LOGIN : " nama
 
     # Cari whoami berdasarkan nama
     expected_who=""
@@ -107,7 +107,7 @@ main_menu() {
         echo -e "${RED}           ┏━━━━━━━━━━━━━━━━━━━━━━━━━┓${NC}"
         echo -e "${RED}           ┃                         ┃${NC}"
         echo -e "${GREEN}┏━━━━━━━━━━┴━━━━━━━━━━┓${NC}    ${GREEN}┏━━━━━━━━━┴━━━━━━━━━━━┓${NC}"
-        echo -e "${GREEN}┃${BG_RED}${YELLOW}MENU LOGIN TOOLS V8.3${NC}${GREEN}┃${NC}    ${GREEN}┃   ${BG_RED}${YELLOW}INFORMASI TOOLS${NC}${GREEN}   ┃${NC}"
+        echo -e "${GREEN}┃${BG_RED}${YELLOW}MENU LOGIN TOOLS V8.4${NC}${GREEN}┃${NC}    ${GREEN}┃   ${BG_RED}${YELLOW}INFORMASI TOOLS${NC}${GREEN}   ┃${NC}"
         echo -e "${GREEN}┏━━━━━━━━━━━━━━━━━━━━━┓${NC}    ${GREEN}┏━━━━━━━━━━━━━━━━━━━━━┓${NC}"
         echo -e "${GREEN}┃${CYAN}1)${NC} ${GREEN}LOGIN             ${GREEN}┃${NC}    ${GREEN}┃${NC} ${GREEN}TRACKING            ${GREEN}┃${NC}"
         echo -e "${GREEN}┃${CYAN}2)${NC} ${YELLOW}DAPATKAN ID ANDA  ${GREEN}┃${NC}    ${GREEN}┃${NC} ${YELLOW}OSIN                ${GREEN}┃${NC}"
