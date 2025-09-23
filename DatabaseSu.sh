@@ -11,6 +11,7 @@ BG_GREEN='\033[1;42m' BG_RED='\033[1;41m' BG_YELLOW='\033[1;43m'
 
 # DATABASE WHOAMIN
 USER_MAP=(
+    "@Razor|u0_a485"
     "Yama|u0_a252"
     "Danxy|u0_a369"
                     # <-- masukkan nama|whoami baru di sini
