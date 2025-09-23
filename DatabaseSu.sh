@@ -35,10 +35,10 @@ USER_MAP=(
 )
 # ---------- FUNGSI ----------
 banner() {
-clear
-sl
-echo -e "                  ${BG_RED}DANXY TOOLS V8.4${NC}"
-sleep 2
+#clear
+#sl
+#echo -e "                  ${BG_RED}DANXY TOOLS V8.4${NC}"
+#sleep 2
 clear
 echo -e "${GREEN}
 ┏━━━━━━━━━━${RED}● ${GREEN}[${YELLOW}LICENSE${GREEN}]${RED} ●${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━┓
